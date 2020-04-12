@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="displaySize">65dp</dimen>
+    <dimen name="displayTextSize">32sp</dimen>
+
+    <dimen name="buttonsTextSize">24sp</dimen>
+</resources>

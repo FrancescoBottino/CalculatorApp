@@ -1,11 +1,58 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+
+    <style name="AppTheme.Display" parent="AppTheme">
+        <item name="backgroundColor">@color/colorDisplayBackground</item>
+        <item name="background">@color/colorDisplayBackground</item>
+        <item name="backgroundTint">@color/colorDisplayBackground</item>
+        <item name="android:background">@color/colorDisplayBackground</item>
+        <item name="android:textSize">@dimen/displayTextSize</item>
+    </style>
+
+    <style name="AppTheme.CalculatorButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <!-- layout based items -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:inset">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+        <!-- text specific items -->
+        <item name="android:textSize">@dimen/buttonsTextSize</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+
+        <!-- button specific items -->
+        <item name="strokeColor">@color/colorButtonBorder</item>
+        <item name="shapeAppearanceOverlay">@style/CalculatorButtonShapeAppearance</item>
+    </style>
+
+    <style name="CalculatorButtonShapeAppearance">
+        <item name="cornerSize">0dp</item>
+    </style>
+
+    <style name="AppTheme.CalculatorButton.Numero" parent="AppTheme.CalculatorButton">
+        <item name="backgroundTint">@color/colorButton_sfondo_numero</item>
+    </style>
+
+    <style name="AppTheme.CalculatorButton.Operando" parent="AppTheme.CalculatorButton">
+        <item name="backgroundTint">@color/colorButton_sfondo_operando</item>
+    </style>
+
+    <style name="AppTheme.CalculatorButton.Strumento" parent="AppTheme.CalculatorButton">
+        <item name="backgroundTint">@color/colorButton_sfondo_strumento</item>
     </style>
 
 </resources>

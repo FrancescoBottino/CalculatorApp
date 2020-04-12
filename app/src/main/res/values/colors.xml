@@ -3,4 +3,14 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="background">#2E2E2E</color>
+    <color name="colorDisplayBackground">#44494f</color>
+
+    <color name="colorButtonText">#E1E1E1</color>
+    <color name="colorButtonBorder">#2E2E2E</color>
+
+    <color name="colorButton_sfondo_strumento">#44494f</color>
+    <color name="colorButton_sfondo_numero">#63686d</color>
+    <color name="colorButton_sfondo_operando">#ff9f0c</color>
 </resources>

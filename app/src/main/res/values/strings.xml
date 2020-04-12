@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">Calculator App</string>
+
+    <string name="button_function_clear">AC</string>
+    <string name="button_function_sign">+/-</string>
+    <string name="button_function_percent">%</string>
+    <string name="button_function_point">.</string>
+    
+    <string-array name="button_function">
+        <item>@string/button_function_clear</item>
+        <item>@string/button_function_sign</item>
+        <item>@string/button_function_percent</item>
+        <item>@string/button_function_point</item>
+    </string-array>
+
+    <string name="button_operator_div">÷</string>
+    <string name="button_operator_mul">×</string>
+    <string name="button_operator_sub">-</string>
+    <string name="button_operator_add">+</string>
+
+    <string-array name="button_operator">
+        <item>@string/button_operator_div</item>
+        <item>@string/button_operator_mul</item>
+        <item>@string/button_operator_sub</item>
+        <item>@string/button_operator_add</item>
+    </string-array>
+
+    <string name="button_number_0">0</string>
+    <string name="button_number_1">1</string>
+    <string name="button_number_2">2</string>
+    <string name="button_number_3">3</string>
+    <string name="button_number_4">4</string>
+    <string name="button_number_5">5</string>
+    <string name="button_number_6">6</string>
+    <string name="button_number_7">7</string>
+    <string name="button_number_8">8</string>
+    <string name="button_number_9">9</string>
+
+    <string-array name="button_number">
+        <item>@string/button_number_0</item>
+        <item>@string/button_number_1</item>
+        <item>@string/button_number_2</item>
+        <item>@string/button_number_3</item>
+        <item>@string/button_number_4</item>
+        <item>@string/button_number_5</item>
+        <item>@string/button_number_6</item>
+        <item>@string/button_number_7</item>
+        <item>@string/button_number_8</item>
+        <item>@string/button_number_9</item>
+    </string-array>
+
+    <string name="button_equals">=</string>
 </resources>
